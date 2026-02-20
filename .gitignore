@@ -12,6 +12,10 @@ node_modules
 logs
 *.log
 
+# Sub repos (client & server are separate repos)
+gomoku-client/
+gomoku-server/
+
 # Misc
 .DS_Store
 .fleet
