@@ -5,7 +5,7 @@
 
 ## 專案目標
 
-以純 Web 端五子棋遊戲作為第一個試水作品，驗證開發流程、建立完整遊戲體驗、探索盈利空間。同步撰寫開發日誌（devlog）作為個人品牌內容。
+以純 Web 端五子棋遊戲作為第一個試水作品，驗證開發流程、建立完整遊戲體驗、探索未來的技術儲備。同步撰寫開發日誌（devlog）作為個人品牌內容。
 
 ---
 
@@ -13,11 +13,13 @@
 
 | Repo | 說明 | 可見性 |
 |------|------|--------|
-| `gomoku-plan-docs` | 專案規劃、開發日誌 | Private |
+| `gomoku-plan-docs` | 專案規劃、開發日誌 | Public |
 | `gomoku-client` | 前端：遊戲畫面、互動邏輯、AI 對戰 | Public |
-| `gomoku-server` | 後端：多人配對、房間管理、對戰同步 | Private |
+| `gomoku-server` | 後端：多人配對、房間管理、對戰同步 | Public |
 
 AI 第一版跑在 client 端（Web Worker），不需要獨立 repo。
+
+> 跨 repo 的工程規範（commit format、scope、分支命名、安全規範）統一收斂在 `ENGINEERING-CONVENTIONS.md`。
 
 ---
 
